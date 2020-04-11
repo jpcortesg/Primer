@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.padre {
+  background: #7216AF;
+  width: 80%;
+  margin: 20px auto;
+  display: flex; /* Afecta a los hijos */
+  justify-content: space-evenly;
+
+  /* Eje vertical, Eje "Y" */
+
+  /*align-items: stretch || center || flex-end || flex-start || baseline ; /* Alinea los elementos, solo para una fila, por defecto es strech */
+
+  /* align-content: ; /* Alinea los contenidos para más de una fila */
+
+  /* Eje horizontal, eje "X", Eje Horizontal */
+
+  /* justify-content: flex-start; /* empieza por la derecha */
+  /* justify-content: flex-end; /* Empieza por la derecha */
+  /* justify-content: flex-end; /* Centra los elementos */
+  /*justify-content: space-between; /* Espacio igual entre ellos, Para todos los elementos */
+  /* justify-content: space-around ; /* Espacio en todo */
+  /* justify-content: space-evenly; /* Espacio en todo igual */
+
+  /* Dirección */
+  /*flex-direction: row || row-reverse; */
+  /* flex-direction: column || column-reverse; */
+ 
+  /*flex-wrap: nowrap || wrap-reverse || wrap; /* Para que los hijos no pierdan sus caracteristicas */
+
+  /* flex-flow: flex-direction, flex-wrap; */
+}
+
+.hijo {
+  width: 20%;
+  height: 100px;
+  background: coral;
+  text-align: center;
+  line-height: 100px;
+  font-size: 34px;
+  color: linen;
+}
+
+
+/* Border Radius */
+
+.br1 {
+  border-radius: 10px;
+}
+
+.br2 {
+  border-radius: 20px;
+}
+
+.br3 {
+  border-radius: 30px;
+}
+
+.brr {
+  border-radius: 50%;
+}
+
+/* Textos */
+
+.txtP {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+/* Width */
+
+.w4 {
+  width: 40%;
+}
+
+.w20{
+  width: 20%;
+}
+
+/* Heigth */
+
+.h700 {
+  height: 500px;
+  line-height: 500px;
+}
+
+.h100{
+  height: 100px;
+}
+
+.ch700{
+  line-height: 500px;
+}
+
+/* Padding */
+
+.p {
+  padding: 20px;
+}
+
+.py {
+  padding: 20px 0;
+}
+
+.px {
+  padding: 0 20px;
+}
+
+.pt {
+  padding-top: 20px;
+}
+
+.pb {
+  padding-bottom: 20px;
+}
+
+.pr {
+  padding-right: 20px;
+}
+
+.pl {
+  padding-left: 20px;
+}
+
+/* Margin */
+
+.m {
+  margin: 20px;
+}
+
+.my {
+  margin: 20px 0;
+}
+
+.mx {
+  margin: 0 20px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+/* Colores */
+
+.cb {
+  color: #FFF;
+}
+
+.cn {
+  color: #000;
+}
+
+.cfb {
+  background-color: #FFF;
+}
+
+.cfn {
+  background-color: #000;
+}
