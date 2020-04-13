@@ -61,7 +61,7 @@ header div:nth-child(1) img{
 }
 
 #search{
-  background:  #3a3a3a url(../images/magnify2.png) no-repeat 5px 11px;
+  background:  #3a3a3a url(../images/magnify2.png) no-repeat 5px 5px;
   border-radius: 10px;
   border: none;
   outline: none;
@@ -145,6 +145,7 @@ h1, p{
   }
 
   #search{
+    background:  #3a3a3a url(../images/magnify2.png) no-repeat 5px 11px;
     display: block;
     width: 50%;
     height: 35px;
