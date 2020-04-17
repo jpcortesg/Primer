@@ -1,5 +1,5 @@
 $primary-color : #272727;
-$secundary-color: #FF652F;
+$secundary-color: #ED8982;
 $white: #FFF;
 $typography: 'Roboto';
 
@@ -18,5 +18,23 @@ $typography: 'Roboto';
     @return #000;
   }@else{
     @return #FFF;
+  }
+}
+
+@mixin media-md{
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin media-lg{
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin media-xl{
+  @media screen and (min-width: 1600px) {
+    @content;
   }
 }
